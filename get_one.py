@@ -8,7 +8,7 @@ import random
 import hashlib
 import binascii
 import evernote.edam.userstore.constants as UserStoreConstants
-import lib.evernote.edam.limits.constants as LimitConstants
+import evernote.edam.limits.constants as LimitConstants
 import evernote.edam.type.ttypes as Types
 #import evernote.edam.notestore.NoteStore as NoteStore
 
