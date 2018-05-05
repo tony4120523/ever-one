@@ -1,3 +1,5 @@
 #!/bin/bash
-python get_one.py > note.txt
-google-chrome note.txt
+source ../venv/bin/activate
+python get_one.py > note.html
+google-chrome note.html
+deactivate

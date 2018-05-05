@@ -92,9 +92,9 @@ auth_token = ""
 client = EvernoteClient(token=auth_token)
 note_store = client.get_note_store()
 notebooks = note_store.listNotebooks()
-print "Found ", len(notebooks), " notebooks:"
-for notebook in notebooks:
-    print "  * ", notebook.name
+#print "Found ", len(notebooks), " notebooks:"
+#for notebook in notebooks:
+#    print "  * ", notebook.name
 
 # fill the notebook_name
 notebook_name = "專案 1"
@@ -111,13 +111,12 @@ note_infos = note_store.findNotesMetadata(auth_token, filter, 0,
                         LimitConstants.EDAM_USER_NOTES_MAX, spec)
 #print note_infos
 note_guid = random.choice(note_infos.notes).guid
-notebook = note_store.getNote(auth_token, note_guid, True, False, False, False)
+note = note_store.getNote(auth_token, note_guid, True, False, False, False)
 
-print note_guid
-print notebook.title
-print
+print notebook_name + "<br clear=\"none\">"
+print note.title + "<br clear=\"none\">"
 #print notebook.content
-print PlainTextOfENML(notebook.content)
+print HTMLOfENML(note.content)
 
 
 
