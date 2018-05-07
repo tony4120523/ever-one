@@ -1,4 +1,6 @@
 # ever-one
+require the Evernote [API key](https://dev.evernote.com/)
+# usage
 ```
 $ pip install virtualenv
 ```
