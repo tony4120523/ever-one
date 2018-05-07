@@ -26,14 +26,14 @@ modify the `client.py` file in dir  `~/venv/lib/python2.7/site-packages/evernote
 
 in line 159, change `addHeader` into `setCustomHeader` and delete the `"**"`
 
-fill the user name, user secret in `webserver.py`
+fill the user name, user secret (API key) in `webserver.py`
 ```
 $ python webserver
 ```
 click the link, open the website by browser.
 authenticate the application permission.
 get the `auth_token` from terminal.
-open `get_one.py` file and fill the `auth_token` and the `notebook_name` in `get_one.py` file.
+fill the `auth_token`, `notebook_name` in `get_one.py` file.
 ```
 $ python get_one.py > note.html
 $ google-chrome note.html
