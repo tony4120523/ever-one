@@ -16,8 +16,9 @@ $ virtualenv --python=/usr/bin/python2.7 venv
 ```
 $ pip install evernote flask thrift
 ```
-modify the `client.py` file in dir  `~/venv/lib/python2.7/site-packages/evernote/api/client.py` in line 159, 
-change `addHeader` into `setCustomHeader` and delete the `"**"`
+modify the `client.py` file in dir  `~/venv/lib/python2.7/site-packages/evernote/api/client.py` 
+
+in line 159, change `addHeader` into `setCustomHeader` and delete the `"**"`
 
 fill the user name, user secret in `webserver.py`
 ```
