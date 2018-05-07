@@ -1,5 +1,9 @@
 # ever-one
+
+read a note randomly from the Evernote account.
+
 require the Evernote [API key](https://dev.evernote.com/)
+
 # usage
 ```
 $ pip install virtualenv
