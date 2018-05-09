@@ -42,3 +42,5 @@ $ google-chrome note.html
 $ deactivate
 ```
 try to run above command via the `./one.sh` script (optional)
+# reference
+* https://github.com/nilshamerlinck/random-evernote
