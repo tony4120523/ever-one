@@ -44,3 +44,4 @@ $ deactivate
 try to run above command via the `./one.sh` script (optional)
 # reference
 * https://github.com/nilshamerlinck/random-evernote
+* https://github.com/paultopia/minimal-evernote-oauth
