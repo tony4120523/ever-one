@@ -28,7 +28,7 @@ in line 159, change `addHeader` into `setCustomHeader` and delete the `"**"`
 
 fill the user name, user secret (API key) in `webserver.py`
 ```
-$ python webserver
+$ python webserver.py
 ```
 click the link, open the website by browser.
 authenticate the application permission.
