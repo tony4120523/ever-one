@@ -27,7 +27,7 @@ modify the `client.py` file in dir  `~vir/venv/lib/python2.7/site-packages/evern
 
 in line 159, change `addHeader` into `setCustomHeader` and delete the `"**"`
 
-fill the user name, user secret [API key](https://dev.evernote.com/) in `webserver.py`
+fill the user name, user secret [(API key)](https://dev.evernote.com/) in `webserver.py`
 ```
 $ python webserver.py
 ```
