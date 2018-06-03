@@ -31,8 +31,11 @@ fill the user name, user secret (API key) in `webserver.py`
 $ python webserver.py
 ```
 click the link, open the website by browser.
+
 authenticate the application permission.
+
 get the `auth_token` from terminal.
+
 fill the `auth_token`, `notebook_name` in `get_one.py` file.
 ```
 $ python get_one.py > note.html
