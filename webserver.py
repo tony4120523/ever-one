@@ -20,7 +20,7 @@ app.config['DEBUG'] = True
 
 auth_client = EvernoteClient(consumer_key=api_key,
                         consumer_secret=api_secret,
-                        sandbox=True) # for production this will need to be False.
+                        sandbox=False) # for production this will need to be False.
 
 # Ok, from here I'm going to create a bunch of totally unnecessary functions that wrap the functions the evernote SDK already gives you.  The point is to make the flow a little bit more explicit by organizing it into a step 3 function, a step 4 function, etc.
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-source venv/bin/activate
+source ../venv/bin/activate
 python get_one.py > note.html
-google-chrome note.html
+open note.html
 deactivate
