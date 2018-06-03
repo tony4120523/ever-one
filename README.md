@@ -24,6 +24,8 @@ $ pip install evernote flask thrift
 ```
 modify the `client.py` file in dir  `~vir/venv/lib/python2.7/site-packages/evernote/api/client.py` 
 
+in line 22, change __True__ into __False__
+
 in line 159, change `addHeader` into `setCustomHeader` and delete the `"**"`
 
 fill the __user name, user secret__ (API key) in `webserver.py`
