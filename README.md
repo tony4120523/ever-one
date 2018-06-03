@@ -31,16 +31,16 @@ fill the user name, user secret [(API key)](https://dev.evernote.com/) in `webse
 ```
 $ python webserver.py
 ```
-click the link`(http://127.0.0.1:8080/authorize-evernote)`, open the website by browser.
+click the authentication link, open the website by browser.
 
 authenticate the application permission.
 
-get the `auth_token(S=XXXX...)` from terminal.
+get the `auth_token (S=XXXX...)` from terminal.
 
 fill the `auth_token`, `notebook_name` in `get_one.py` file.
 ```
 $ python get_one.py > note.html
-$ google-chrome note.html  or  $ open note.html
+$ google-chrome note.html
 ```
 ```
 $ deactivate
