@@ -2,7 +2,7 @@
 
 read a note randomly from the Evernote account.
 
-require the Evernote __full access__ [API key](https://dev.evernote.com/) 
+require the Evernote __FULL ACCESS__ [API key](https://dev.evernote.com/) 
 
 # usage
 ```
