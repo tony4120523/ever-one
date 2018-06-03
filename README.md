@@ -12,7 +12,6 @@ $ pip install virtualenv
 $ mkdir vir
 $ cd vir
 $ git clone https://github.com/tony4120523/ever-one.git
-$ cd vir
 ```
 ```
 $ virtualenv venv
