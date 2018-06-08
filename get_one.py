@@ -14,7 +14,8 @@ import evernote.edam.type.ttypes as Types
 
 from evernote.api.client import NoteStore
 from evernote.api.client import EvernoteClient
-from enml import PlainTextOfENML, HTMLOfENML
+from enml import PlainTextOfENML, HTMLOfENML, ENMLOfPlainText
+from init import ENMLToHTML
 # Real applications authenticate with Evernote using OAuth, but for the
 # purpose of exploring the API, you can get a developer token that allows
 # you to access your own Evernote account. To get a developer token, visit
@@ -97,7 +98,7 @@ notebooks = note_store.listNotebooks()
 #    print "  * ", notebook.name
 
 # fill the notebook_name
-notebook_name = "專案 1"
+notebook_name = ""
 notebook_guid = ""
 for notebook in notebooks:
     if notebook.name == notebook_name:
@@ -115,8 +116,11 @@ note = note_store.getNote(auth_token, note_guid, True, False, False, False)
 
 print notebook_name + "<br clear=\"none\">"
 print note.title + "<br clear=\"none\">"
-#print notebook.content
-print HTMLOfENML(note.content)
+#print note.content
+#print PlainTextOfENML(note.content)
+#print HTMLOfENML(note.content)
+print ENMLToHTML(note.content)
+
 
 
 

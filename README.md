@@ -20,7 +20,7 @@ $ virtualenv --python=/usr/bin/python2.7 venv
 ```
 install some library
 ```
-$ pip install evernote flask thrift
+$ pip install evernote flask thrift bs4 html2text
 ```
 modify the `client.py` file in dir  `~vir/venv/lib/python2.7/site-packages/evernote/api/client.py` 
 
@@ -41,7 +41,7 @@ get the `auth_token (S=XXXX...)` from terminal.
 fill the `auth_token`, `notebook_name` in `get_one.py` file.
 ```
 $ python get_one.py > note.html
-$ google-chrome note.html
+$ open -a "Google Chrome" note.html
 ```
 ```
 $ deactivate
@@ -50,3 +50,4 @@ try to run above command via the `./one.sh` script (optional)
 # reference
 * https://github.com/nilshamerlinck/random-evernote
 * https://github.com/paultopia/minimal-evernote-oauth
+* https://github.com/CarlLee/ENML_PY
