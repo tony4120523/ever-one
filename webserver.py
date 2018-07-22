@@ -2,7 +2,7 @@ from flask import Flask, redirect, request, abort
 from os import environ
 from evernote.api.client import EvernoteClient
 
-# INSTRUCTIONS FROM EVERNOTE: http://dev.evernote.com/doc/articles/authentication.php
+# INSTRUCTIONS FROM EVERNOTE: http://dev.evernote.com/doc/articles/authentication.php 
 
 # ***STEP 1***: First we need our client (i.e. app) tokens:
 try:
