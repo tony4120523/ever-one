@@ -1,6 +1,6 @@
 # ever-one
 
-read a note randomly from the Evernote account.
+read a note randomly from the Evernote account
 
 require the Evernote __FULL ACCESS__ [API key](https://dev.evernote.com/) 
 
